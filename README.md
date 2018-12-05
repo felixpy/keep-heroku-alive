@@ -2,9 +2,9 @@
 
 Script to keep heroku application alive.
 
-## Crontab
+## Crontab Example
 
-```bash
+```plain
 # keep-heroku-alive
-*/5 * * * * bash /data/scripts/keep-heroku-alive.sh >/dev/null 2>&1
+*/5 * * * * bash /data/scripts/keep-heroku-alive/keep.sh >/dev/null 2>&1
 ```
